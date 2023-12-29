@@ -1,0 +1,72 @@
+input {
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust the last value for the desired opacity */
+    color: #000; /* Set the text color */
+    padding: 8px;
+    border: 1px solid #615f5f;
+    font-size: 18px;
+  }
+
+input::placeholder{
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid wheat; 
+    margin: 10px;
+    color: wheat;
+    background: transparent;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+}
+
+button:hover{
+    letter-spacing: 0.15rem;
+    box-shadow: 0 0 25px rgb(255, 157, 9);
+    transition: 0.3s;
+    color: wheat;
+    border:  2px solid rgb(255, 157, 9);
+}
+
+.card{
+    z-index: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    height: 130px;
+    padding: 2px 2px 2px 2px;
+}
+
+.city{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.temp{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+.humidity{
+    color: white;
+    font-size: 15px;
+}
+
+.pressure{
+    color: white;
+    font-size: 15px;
+}
+
+.windspeed{
+    color: white;
+    font-size: 15px;
+}
